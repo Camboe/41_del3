@@ -1,4 +1,4 @@
-package CDIO3.Player;
+package Player;
 
 public class Piece {
 }

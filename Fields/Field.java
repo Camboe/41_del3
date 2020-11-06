@@ -7,11 +7,9 @@ public class Field {
         position = numPosition;
 
     }
-    public void setPosition(int numPosition){
-        position = numPosition;
-    }
 
     public int getPosition() {
+
         return position;
     }
 }

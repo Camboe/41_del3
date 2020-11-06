@@ -1,4 +1,4 @@
-package CDIO3;
+package src;
 
 public class Field {
     private int position;

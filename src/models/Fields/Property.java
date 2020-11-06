@@ -1,4 +1,4 @@
-package CDIO3.Fields;
+package models.Fields;
 
 public class Property extends Field {
     private int propertyNumber;

@@ -1,4 +1,4 @@
-package CDIO3;
+package models.Fields;
 
 public class Field {
     private int position;

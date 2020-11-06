@@ -1,4 +1,4 @@
-package CDIO3.Player;
+package models.Player;
 
 public class Player {
     private String name;

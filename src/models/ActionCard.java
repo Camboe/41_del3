@@ -1,4 +1,4 @@
-package CDIO3;
+package models;
 
 public class ActionCard {
     private String text;

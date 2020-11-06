@@ -1,0 +1,258 @@
+Index: Fields/Field.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CDIO3.Fields;\r\n\r\npublic class Field {\r\n    private int position;\r\n\r\n    public Field(int numPosition) {\r\n        position = numPosition;\r\n\r\n    }\r\n    public void setPosition(int numPosition){\r\n        position = numPosition;\r\n    }\r\n\r\n    public int getPosition() {\r\n        return position;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Fields/Field.java	(revision d58dc15b252ee0c471677c765637ddfa7bf5b8c3)
++++ Fields/Field.java	(date 1604667655246)
+@@ -1,4 +1,4 @@
+-package CDIO3.Fields;
++package Fields;
+ 
+ public class Field {
+     private int position;
+Index: Player/Player.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CDIO3.Player;\r\n\r\npublic class Player {\r\n    private String name;\r\n    protected int position;\r\n\r\n\r\n    public Player(String name, int position) {\r\n        this.name = name;\r\n        this.position = position;\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Player/Player.java	(revision d58dc15b252ee0c471677c765637ddfa7bf5b8c3)
++++ Player/Player.java	(date 1604667655253)
+@@ -1,4 +1,4 @@
+-package CDIO3.Player;
++package Player;
+ 
+ public class Player {
+     private String name;
+Index: Player/Account.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CDIO3.Player;\r\n\r\npublic class Account {\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Player/Account.java	(revision d58dc15b252ee0c471677c765637ddfa7bf5b8c3)
++++ Player/Account.java	(date 1604667655195)
+@@ -1,4 +1,4 @@
+-package CDIO3.Player;
++package Player;
+ 
+ public class Account {
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"C:\\Program Files\\JetBrains\\IntelliJ IDEA Educational Edition 2020.2.1\\plugins\\maven\\lib\\maven3\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision d58dc15b252ee0c471677c765637ddfa7bf5b8c3)
++++ .idea/workspace.xml	(date 1604667655314)
+@@ -1,5 +1,49 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="BranchesTreeState">
++    <expand>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </expand>
++    <select />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="2611c637-9ac9-41e0-b1ea-3c1b039229dd" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ActionCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/ActionCard.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/Board.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/Field.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Fields/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fields/Field.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Fields/Jail.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fields/Jail.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Fields/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fields/Property.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Player/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/Account.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Player/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/Piece.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/Player.java" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
+   <component name="MavenImportPreferences">
+     <option name="generalSettings">
+       <MavenGeneralSettings>
+@@ -7,4 +51,62 @@
+       </MavenGeneralSettings>
+     </option>
+   </component>
++  <component name="ProjectId" id="1juuGmYnqtpSeJRtr9iJW1Bgg2L" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="aspect.path.notification.shown" value="true" />
++  </component>
++  <component name="RunManager">
++    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
++      <option name="arquillianRunConfiguration">
++        <value>
++          <option name="containerStateName" value="" />
++        </value>
++      </option>
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="362c5e22-b826-4524-8946-8392c2cb40af" name="Default Changelist" comment="" />
++      <created>1604666204962</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1604666204962</updated>
++      <workItem from="1604666206135" duration="365000" />
++    </task>
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++  <component name="WindowStateProjectService">
++    <state x="450" y="265" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604667655121">
++      <screen x="0" y="0" width="1280" height="680" />
++    </state>
++    <state x="450" y="265" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1604667655121" />
++    <state x="506" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1604666219960" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: ActionCard.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CDIO3;\r\n\r\npublic class ActionCard {\r\n    private String text;\r\n    private int valueMoney;\r\n    Boolean bonusTurn;\r\n    private int fieldValue;\r\n\r\n\r\n    public ActionCard(String text, int valueMoney, Boolean bonusTurn, int fieldValue) {\r\n        this.text = text;\r\n        this.valueMoney = valueMoney;\r\n        this.bonusTurn = bonusTurn;\r\n        this.fieldValue = fieldValue;\r\n\r\n\r\n    }\r\n    public String getText(){\r\n        return text;\r\n\r\n    }\r\n    public int getValueMoney(){\r\n        return valueMoney;\r\n\r\n    }\r\n    public Boolean getBonusTurn(){\r\n        return bonusTurn;\r\n    }\r\n    public int getFieldValue(){\r\n        return fieldValue;\r\n\r\n    }\r\n\r\n\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ActionCard.java	(revision d58dc15b252ee0c471677c765637ddfa7bf5b8c3)
++++ ActionCard.java	(date 1604667655237)
+@@ -1,4 +1,4 @@
+-package CDIO3;
++package;
+ 
+ public class ActionCard {
+     private String text;
+Index: Fields/Property.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CDIO3.Fields;\r\n\r\npublic class Property extends Field {\r\n    private int propertyNumber;\r\n    private int propertyPrice;\r\n    private String propertyOwner;\r\n\r\n    public Property(int numPosition, int propertyNumber, int propertyPrice, String propertyOwner) {\r\n        super(numPosition);\r\n        this.propertyNumber = propertyNumber;\r\n        this.propertyPrice = propertyPrice;\r\n        this.propertyOwner = propertyOwner;\r\n    }\r\n\r\n}\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Fields/Property.java	(revision d58dc15b252ee0c471677c765637ddfa7bf5b8c3)
++++ Fields/Property.java	(date 1604667655140)
+@@ -1,4 +1,4 @@
+-package CDIO3.Fields;
++package Fields;
+ 
+ public class Property extends Field {
+     private int propertyNumber;
+Index: Field.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CDIO3;\r\n\r\npublic class Field {\r\n    private int position;\r\n\r\n    public Field(int numPosition) {\r\n        position = numPosition;\r\n\r\n    }\r\n    public void setPosition(int numPosition){\r\n        position = numPosition;\r\n    }\r\n\r\n    public int getPosition() {\r\n        return position;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Field.java	(revision d58dc15b252ee0c471677c765637ddfa7bf5b8c3)
++++ Field.java	(date 1604667655175)
+@@ -1,4 +1,4 @@
+-package CDIO3;
++package;
+ 
+ public class Field {
+     private int position;
+Index: Player/Piece.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CDIO3.Player;\r\n\r\npublic class Piece {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Player/Piece.java	(revision d58dc15b252ee0c471677c765637ddfa7bf5b8c3)
++++ Player/Piece.java	(date 1604667655229)
+@@ -1,4 +1,4 @@
+-package CDIO3.Player;
++package Player;
+ 
+ public class Piece {
+ }
+Index: Fields/Jail.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CDIO3.Fields;\r\n\r\npublic class Jail extends Field{\r\n    private int lostValue;\r\n\r\n    public Jail(int numPosition, int lostValue) {\r\n        super(numPosition);\r\n        this.lostValue = lostValue;\r\n    }\r\n\r\n\r\n    @Override\r\n    public void setPosition(int numPosition) {\r\n        super.setPosition(6);\r\n\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Fields/Jail.java	(revision d58dc15b252ee0c471677c765637ddfa7bf5b8c3)
++++ Fields/Jail.java	(date 1604667655158)
+@@ -1,4 +1,4 @@
+-package CDIO3.Fields;
++package Fields;
+ 
+ public class Jail extends Field{
+     private int lostValue;
+Index: Board.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package CDIO3;\r\n\r\npublic class Board {\r\n    Field[] actionCard = new Field[20];{\r\n            actionCard[0] =\r\n\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Board.java	(revision d58dc15b252ee0c471677c765637ddfa7bf5b8c3)
++++ Board.java	(date 1604667655213)
+@@ -1,4 +1,4 @@
+-package CDIO3;
++package;
+ 
+ public class Board {
+     Field[] actionCard = new Field[20];{

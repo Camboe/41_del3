@@ -19,31 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c35fb27-0bb9-4095-a5fa-9217c6efa3fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/41_del3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_11_2020_13_55_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_11_2020_13_55__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2020_13_54_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2020_13_54__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2020_13_55_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2020_13_55_[Default_Changelist]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2020_13_55__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2020_13_55__Default_Changelist_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2020_14_00_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2020_14_00__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ActionCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ActionCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fields/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Fields/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fields/Jail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Fields/Jail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fields/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Fields/Property.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Player/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Player/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Player/Player.java" afterDir="false" />
+    <list default="true" id="3c35fb27-0bb9-4095-a5fa-9217c6efa3fe" name="Default Changelist" comment="Det virker">
+      <change beforePath="$PROJECT_DIR$/ActionCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/ActionCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fields/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fields/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fields/Jail.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fields/Jail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fields/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/Fields/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +61,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -85,6 +72,13 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="41_del3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -96,6 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -105,8 +104,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604667940057</updated>
-      <workItem from="1604667941108" duration="871000" />
+      <workItem from="1604667941108" duration="1160000" />
     </task>
+    <task id="LOCAL-00001" summary="Det virker">
+      <created>1604668836583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604668836583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,10 +130,26 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Det virker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Det virker" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604667997117">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1604669108717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1604667997117" />
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1604669108717" />
+    <state x="273" y="102" key="MultipleFileMergeDialog" timestamp="1604668962192">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="273" y="102" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1604668962192" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1604668862439">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604668862439" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604668976579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1604668976579" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package CDIO3.Fields;
+package Fields;
 
 public class Jail extends Field{
     private int lostValue;
